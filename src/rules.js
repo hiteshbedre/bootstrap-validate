@@ -71,9 +71,9 @@ export default {
     /**
      * @since 1.0.10
      * @error Please only enter alphanumeric characters!
-     * @description Require alphanumeric input, e.g. 0-9 and a-Z.
+     * @description Require alphanumeric input, e.g. 0-9, a-z or A-Z.
      */
-    /^[a-z0-9]+$/i.test(input.value),
+    /^[A-Za-z0-9]+$/i.test(input.value),
   ISO8601: (input) =>
     /**
      * @since v2.1.0
